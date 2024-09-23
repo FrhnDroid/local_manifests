@@ -13,6 +13,7 @@
 
     <!-- Repos -->
     <!-- Device -->
+    <project path="device/xiaomi/earth" name="android_device_xiaomi_earth" remote="Jayzee-Zee" revision="Blaze" />
     <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="LineageOS" revision="lineage-21" />
 
     <!-- Device - Common -->
