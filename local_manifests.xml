@@ -31,6 +31,5 @@
     <project path="hardware/mediatek" name="android_hardware_mediatek" remote="LineageOS" revision="lineage-21" />
 
     <!-- Other Repos -->
-    <project path="Blaze" name="android_device_xiaomi_earth" remote="Jayzee-Zee" />
 
 </manifest>
