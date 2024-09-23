@@ -8,10 +8,6 @@
     <remote name="mt6768-dev" fetch="https://github.com/mt6768-dev" clone-depth="1" />
 
     <!-- Removals -->
-    <remove-project name="hardware/xiaomi" />
-    <remove-project name="hardware/mediatek" />
-    <remove-project name="vendor/xiaomi/earth" />
-
     <!-- Repos -->
     <!-- Device -->
     <project path="device/xiaomi/earth" name="android_device_xiaomi_earth" remote="Jayzee-Zee" revision="Blaze" />
