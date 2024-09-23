@@ -9,7 +9,7 @@
 
     <!-- Removals -->
     <remove-project name="android_hardware_mediatek" />
-    <remove-project name="hardware_xiaomi" />
+    <remove-project name="android_hardware_xiaomi" />
     <remove-project name="name="proprietary_vendor_xiaomi_earth"
 
     <!-- Repos -->
