@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<!-- Generated using sounddrill31/actions_generate_local_manifests -->
+
+    <!-- Remotes -->
+    <remote name="LineageOS" fetch="https://github.com/LineageOS" clone-depth="1" />
+    <remote name="Jayzee-Zee" fetch="https://github.com/Jayzee-Zee" clone-depth="1" />
+    <remote name="mt6768-dev" fetch="https://github.com/mt6768-dev" clone-depth="1" />
+
+    <!-- Removals -->
+    <remove-project name="android_hardware_mediatek" />
+    <remove-project name="hardware_xiaomi" />
+
+    <!-- Repos -->
+    <!-- Device -->
+    <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="LineageOS" revision="lineage-21" />
+
+    <!-- Device - Common -->
+
+    <!-- Kernel -->
+    <project path="kernel/xiaomi/earth" name="android_kernel_xiaomi_earth" remote="Jayzee-Zee" revision="nonksu" />
+
+    <!-- Vendor -->
+    <project path="vendor/xiaomi/earth" name="proprietary_vendor_xiaomi_earth" remote="mt6768-dev" revision="lineage-21" />
+
+    <!-- Vendor - Common -->
+
+    <!-- Hardware -->
+    <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="LineageOS" revision="lineage-21" />
+    <project path="hardware/mediatek" name="android_hardware_mediatek" remote="LineageOS" revision="lineage-21" />
+
+    <!-- Other Repos -->
+    <project path="Blaze" name="android_device_xiaomi_earth" remote="Jayzee-Zee" />
+
+</manifest>
