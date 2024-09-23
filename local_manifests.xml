@@ -8,9 +8,9 @@
     <remote name="mt6768-dev" fetch="https://github.com/mt6768-dev" clone-depth="1" />
 
     <!-- Removals -->
-    <remove-project name="android_hardware_mediatek" />
-    <remove-project name="android_hardware_xiaomi" />
-    <remove-project name="proprietary_vendor_xiaomi_earth" />
+    <remove-project name="hardware/xiaomi" />
+    <remove-project name="hardware/mediatek" />
+    <remove-project name="vendor/xiaomi/earth" />
 
     <!-- Repos -->
     <!-- Device -->
