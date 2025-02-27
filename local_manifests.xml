@@ -3,7 +3,7 @@
 <!-- Generated using sounddrill31/actions_generate_local_manifests -->
 
     <!-- Remotes -->
-    <remote name="LineageOS" fetch="https://github.com/LineageOS" clone-depth="1" />
+    <remote name="ProjectMatrixx" fetch="https://github.com/ProjectMatrixx" clone-depth="1" />
     <remote name="FrhnDroid" fetch="https://github.com/FrhnDroid" clone-depth="1" />
     <remote name="mt6768-dev" fetch="https://github.com/mt6768-dev" clone-depth="1" />
 
