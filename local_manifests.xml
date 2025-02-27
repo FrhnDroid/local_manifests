@@ -10,22 +10,22 @@
     <!-- Removals -->
     <!-- Repos -->
     <!-- Device -->
-    <project path="device/xiaomi/earth" name="device_xiaomi_earth" remote="FrhnDroid" revision="ProjectName" />
-    <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="LineageOS" revision="lineage-21" />
+    <project path="device/xiaomi/earth" name="device_xiaomi_earth" remote="FrhnDroid" revision="matrixx" />
+    <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="LineageOS" revision="lineage-22.1" />
 
     <!-- Device - Common -->
 
     <!-- Kernel -->
-    <project path="kernel/xiaomi/earth" name="kernel_xiaomi_earth" remote="FrhnDroid" revision="ProjectName" />
+    <project path="kernel/xiaomi/earth" name="kernel_xiaomi_earth" remote="FrhnDroid" revision="lineage-22.1" />
 
     <!-- Vendor -->
-    <project path="vendor/xiaomi/earth" name="vendor_xiaomi_earth" remote="FrhnDroid" revision="ProjectName" />
+    <project path="vendor/xiaomi/earth" name="vendor_xiaomi_earth" remote="FrhnDroid" revision="lineage-22.1" />
 
     <!-- Vendor - Common -->
 
     <!-- Hardware -->
-    <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="LineageOS" revision="lineage-21" />
-    <project path="hardware/mediatek" name="android_hardware_mediatek" remote="LineageOS" revision="lineage-21" />
+    <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="LineageOS" revision="lineage-22.1" />
+    <project path="hardware/mediatek" name="android_hardware_mediatek" remote="LineageOS" revision="lineage-22.1" />
 
     <!-- Other Repos -->
 
