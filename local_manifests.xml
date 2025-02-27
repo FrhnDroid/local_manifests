@@ -4,22 +4,22 @@
 
     <!-- Remotes -->
     <remote name="LineageOS" fetch="https://github.com/LineageOS" clone-depth="1" />
-    <remote name="Jayzee-Zee" fetch="https://github.com/Jayzee-Zee" clone-depth="1" />
+    <remote name="FrhnDroid" fetch="https://github.com/Jayzee-Zee" clone-depth="1" />
     <remote name="mt6768-dev" fetch="https://github.com/mt6768-dev" clone-depth="1" />
 
     <!-- Removals -->
     <!-- Repos -->
     <!-- Device -->
-    <project path="device/xiaomi/earth" name="android_device_xiaomi_earth" remote="Jayzee-Zee" revision="Blaze" />
+    <project path="device/xiaomi/earth" name="device_xiaomi_earth" remote="FrhnDroid" revision="ProjectName" />
     <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="LineageOS" revision="lineage-21" />
 
     <!-- Device - Common -->
 
     <!-- Kernel -->
-    <project path="kernel/xiaomi/earth" name="android_kernel_xiaomi_earth" remote="Jayzee-Zee" revision="nonksu" />
+    <project path="kernel/xiaomi/earth" name="kernel_xiaomi_earth" remote="FrhnDroid" revision="ProjectName" />
 
     <!-- Vendor -->
-    <project path="vendor/xiaomi/earth" name="proprietary_vendor_xiaomi_earth" remote="mt6768-dev" revision="lineage-21" />
+    <project path="vendor/xiaomi/earth" name="vendor_xiaomi_earth" remote="FrhnDroid" revision="ProjectName" />
 
     <!-- Vendor - Common -->
 
